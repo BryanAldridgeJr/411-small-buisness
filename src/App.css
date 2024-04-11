@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 3%;
+}
+
+.img1 {
+  width: 100%;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid rgb(219, 219, 219);
+  width: 80%;
+  padding: 2%;
+}
+
+.button1 {
+  width: 50%;
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  padding: 7px 32px;
+  border-radius: 3%;
+}
+
+.buttondiv {
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 2%;
+}
